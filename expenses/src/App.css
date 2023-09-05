@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,7 +41,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: black;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -55,7 +55,7 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 1px solid #dedede;
+  border-right: 1px solid white;
 }
 
 .money {
@@ -79,7 +79,8 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -112,7 +113,7 @@ input[type='number'] {
 }
 
 .list li {
-  background-color: #fff;
+  background-color: black;
   box-shadow: var(--box-shadow);
   color: #333;
   display: flex;

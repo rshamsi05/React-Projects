@@ -1,9 +1,10 @@
 import React from 'react'
 
+const styles = {color: 'White', font: 'Serif'};
 const Header = () => {
   return (
-    <h2 >
-      Expense Tracker
+    <h2 style={styles}>
+      ELITEBANKS
     </h2>
   )
 }
